@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 0px 15px;
+            margin: 0px auto;
+        }
+
+        .logo img {
+            width: 200px;
+            object-fit: contain;
+            height: 30px;
+            display: block;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        ul {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        ul li a {
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        .header-outer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px;
+            position: relative;
+        }
+
+        header {
+            background: #e4f2ff;
+            width: 100%;
+        }
+
+        .menu {
+            width: calc(100% - 200px);
+            text-align: right;
+        }
+
+        .logo {
+            width: 200px;
+        }
+
+        .menu-bar {
+            border: none;
+            background: transparent;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            display: none;
+            margin-left: auto;
+        }
+
+        @media(max-width:767px) {
+            .menu ul {
+                display: none;
+                position: fixed;
+                right: 0;
+                top: 50px;
+                background: #c1cde5;
+                width: 250px;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            .menu-bar {
+                display: block;
+            }
+
+            ul li {
+                display: block;
+                text-align: center;
+            }
+
+            ul li a {
+            display: block;
+            padding: 12px;
+            color: #181c6a;
+            font-size: 18px;
+            }
+
+            .black-overlay {
+                z-index: 50;
+                background-color: rgba(0, 0, 0, 0.4);
+                content: "";
+                position: fixed;
+                right: 0px;
+                height: 100%;
+                width: 100%;
+                transition: all 0.1s ease-in-out;
+                top: 0px;
+            }
+            ul.on {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- header-section -->
+    <header>
+        <div class="container">
+            <div class="header-outer">
+                <div class="logo">
+                    <img src="images/download.png" alt="logo-img">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                    <button class="menu-bar">
+                        <img src="images/bar.svg" alt="bar-img" />
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- End -->
+    <section class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum accusantium, quis quia accusamus
+            pariatur consequuntur quasi, sunt cupiditate quas facere quos debitis harum, consequatur minima. Cumque,
+            facilis. Iure, itaque.</p>
+    </section>
+
+    <script>
+        const MenuBar = document.querySelector('.menu-bar');
+        const Menu = document.querySelector('.menu ul');
+        const Body = document.querySelector('body');
+
+        MenuBar.addEventListener('click', function () {
+            Menu.classList.toggle('on')
+            Body.classList.toggle('black-overlay')
+
+        });
+    </script>
+</body>
+
+</html>
